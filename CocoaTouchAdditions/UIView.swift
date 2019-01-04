@@ -39,30 +39,6 @@ public extension UIView {
     }
 }
 
-public extension UIView {
-    public func usesAutoLayout() {
-        translatesAutoresizingMaskIntoConstraints = false
-    }
-    
-    /// Activates the constraints and signals the use of auto layout.
-    public func use(_ constraints: [NSLayoutConstraint]) {
-        usesAutoLayout()
-        NSLayoutConstraint.activate(constraints)
-    }
-    
-    public func constrain(to view: UIView) {
-        topAnchor.constraint(equalTo: view.topAnchor).isActive = true
-        leadingAnchor.constraint(equalTo: view.leadingAnchor).isActive = true
-        trailingAnchor.constraint(equalTo: view.trailingAnchor).isActive = true
-        bottomAnchor.constraint(equalTo: view.bottomAnchor).isActive = true
-    }
-    
-    /// Changes the zPosition to be above the section headers of CollectionViewFlowLayout.
-    public func positionAboveSectionHeaders() {
-        layer.zPosition = max(layer.zPosition, 2)
-    }
-}
-
 public extension UIImageView {
     public func circleBordered(by color: UIColor, width: CGFloat) {
         circleCorners()

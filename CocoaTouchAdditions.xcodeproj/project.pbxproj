@@ -17,6 +17,7 @@
 		5C3D6BEC214448D60094FDC2 /* CoreGraphicsGeometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3D6BEB214448D60094FDC2 /* CoreGraphicsGeometry.swift */; };
 		5C3D6BEE214448F70094FDC2 /* CALayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3D6BED214448F70094FDC2 /* CALayer.swift */; };
 		5C61730821D75E2C00AE3CA9 /* IdentifiableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C61730721D75E2C00AE3CA9 /* IdentifiableButton.swift */; };
+		5CB2256921DEBC74009CDFD7 /* AutoLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB2256821DEBC74009CDFD7 /* AutoLayout.swift */; };
 		5CC8F44821462B1B00965D90 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC8F44721462B1B00965D90 /* UIColor.swift */; };
 		5CD421262154AA9300CAC397 /* ChainableDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD421252154AA9300CAC397 /* ChainableDataSource.swift */; };
 		5CD421352155E6C600CAC397 /* AxialGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD421342155E6C600CAC397 /* AxialGradientView.swift */; };
@@ -49,6 +50,7 @@
 		5C3D6BEB214448D60094FDC2 /* CoreGraphicsGeometry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreGraphicsGeometry.swift; sourceTree = "<group>"; };
 		5C3D6BED214448F70094FDC2 /* CALayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CALayer.swift; sourceTree = "<group>"; };
 		5C61730721D75E2C00AE3CA9 /* IdentifiableButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdentifiableButton.swift; sourceTree = "<group>"; };
+		5CB2256821DEBC74009CDFD7 /* AutoLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoLayout.swift; sourceTree = "<group>"; };
 		5CC8F44721462B1B00965D90 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 		5CD421252154AA9300CAC397 /* ChainableDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChainableDataSource.swift; sourceTree = "<group>"; };
 		5CD421342155E6C600CAC397 /* AxialGradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AxialGradientView.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 				5C3D6BD2214448230094FDC2 /* CocoaTouchAdditions.h */,
 				5C3D6BD3214448230094FDC2 /* Info.plist */,
 				5C3D6BE92144489E0094FDC2 /* UIView.swift */,
+				5CB2256821DEBC74009CDFD7 /* AutoLayout.swift */,
 				5C1BB0232159A7A300AFB591 /* TaggedValue.swift */,
 				5C3D6BEB214448D60094FDC2 /* CoreGraphicsGeometry.swift */,
 				5C3D6BED214448F70094FDC2 /* CALayer.swift */,
@@ -234,6 +237,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CB2256921DEBC74009CDFD7 /* AutoLayout.swift in Sources */,
 				5C3D6BEE214448F70094FDC2 /* CALayer.swift in Sources */,
 				5CC8F44821462B1B00965D90 /* UIColor.swift in Sources */,
 				5CD8393D21A60BAC0060C85E /* GradientView.swift in Sources */,
